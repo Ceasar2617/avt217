@@ -1,0 +1,39 @@
+body {
+  background-color: #ccf2ff;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+p{
+  text-indent: 2em;
+}
+
+div {
+  padding-left: 4em;
+  padding-right: 3em;
+}
+
+h1 {
+  font-size: 2em;
+  font-family: American Typewriter, serif;
+  font-weight: 650;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  font-family: American Typewriter, serif;
+  font-weight: 650;
+}
+
+h4 {
+  font-family: American Typewriter, serif;
+}
+
+h3 {
+  font-style: italic;
+}
+
+li {
+  padding-top: 5px;
+}
