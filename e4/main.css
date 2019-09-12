@@ -1,6 +1,7 @@
 body {
   background-color: #ccf2ff;
   text-align: left;
+  line-height: 1.4em;
   font-family: sans-serif;
 }
 
@@ -9,25 +10,27 @@ p{
 }
 
 div {
+  /* position: absolute;
+  left: 10%;
+  right: 10%; */
+  margin: 0 auto;
   padding-left: 4em;
   padding-right: 3em;
+  max-width: 1000px;
 }
 
 h1 {
   font-size: 2em;
-  font-family: American Typewriter, serif;
   font-weight: 650;
   text-align: center;
 }
 
 h2 {
   font-size: 2em;
-  font-family: American Typewriter, serif;
   font-weight: 650;
 }
 
 h4 {
-  font-family: American Typewriter, serif;
 }
 
 h3 {
