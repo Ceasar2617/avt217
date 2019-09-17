@@ -9,14 +9,14 @@ p{
   text-indent: 2em;
 }
 
-div {
+div#special  {
   /* position: absolute;
   left: 10%;
   right: 10%; */
   margin: 0 auto;
   padding-left: 4em;
   padding-right: 3em;
-  max-width: 1000px;
+  max-width: 1500px;
 }
 
 h1 {
@@ -39,4 +39,9 @@ h3 {
 
 li {
   padding-top: 5px;
+}
+
+.intro {
+  font-style: italic;
+  font-size: 1.2em;
 }
