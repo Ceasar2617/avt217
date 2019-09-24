@@ -53,6 +53,15 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   margin-top: 30%;
 }
 
+.title {
+  margin-bottom: 10%;
+}
+
+.title h1, .title h3 {
+  font-weight: lighter;
+  font-style: italic;
+}
+
 /* FOR PAGE 2 */
 .top2, .bottom2 {
   margin-top: 50px;
