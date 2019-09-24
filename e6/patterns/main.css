@@ -1,5 +1,11 @@
+html {
+  height: 100%;
+}
 body {
 margin: 0;
+height: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
 }
 
 #darkbod{
@@ -83,5 +89,72 @@ margin: 0;
 }
 .tile9 {
   background-color: White;
+  transform: rotate(45deg);
+}
+
+/* BREAK - PATTERN 4 */
+#container4 {
+  width: 150%;
+  margin: -100px -50px -10% -50px;
+
+
+}
+.tile10, .tile11, .tile12 {
+  float: left;
+  height: 1600px;
+  width: 15px;
+  margin-right: 25px;
+
+
+}
+
+.tile10 {
+  transform: rotate(15deg);
+  opacity: 0.8;
+  background-color:#2a6592;
+}
+
+.tile11 {
+  transform: rotate(15deg);
+  background-color:#db9833;
+}
+
+.tile12 {
+  transform: rotate(15deg);
+  background-color:#8ec3eb;
+}
+
+/* BREAK - PATTERN 4 */
+#sunset {
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.t1, .t2, .t3, .t4 {
+  margin-top: -30%;
+  height: 2600px;
+  width: 75px;
+  opacity: 0.5;
+  background-color: white;
+}
+
+.t1 {
+  float: left;
+  transform: rotate(45deg);
+}
+
+.t2 {
+  float: right;
+  transform: rotate(-45deg);
+}
+
+.t3 {
+  float: left;
+  transform: rotate(-45deg);
+
+}
+
+.t4 {
+  float: right;
   transform: rotate(45deg);
 }
