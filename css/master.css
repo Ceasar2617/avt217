@@ -6,3 +6,18 @@ body {
 img {
   max-width: 100%;
 }
+
+a:link {
+  color: black;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: red;
+  text-decoration: line-through;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: overline;
+}
