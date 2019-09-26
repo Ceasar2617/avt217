@@ -1,8 +1,30 @@
 body {
-  background-color: #ccf2ff;
+  background-color: black;
   text-align: center;
+  color: white;
 }
 
 img {
   max-width: 100%;
+}
+
+.top1 .bot1 {
+  float: left;
+  width: 50%;
+}
+
+a:link {
+  color: white;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+  font-style: italic;
+  text-decoration: line-through;
+}
+
+a:hover {
+  color: white;
+  text-decoration: overline;
 }
