@@ -16,7 +16,7 @@ img {
   max-width: 100%;
 }
 
-#starry {
+.starry {
 color: white;
 background-color:black;
 background-image:
@@ -29,15 +29,15 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 
 }
 
-#starry a:link {
+.starry a:link {
   color: white;
 }
 
-#starry a:visited {
+.starry a:visited {
   color: white;
 }
 
-#starry a:hover {
+.starry a:hover {
   color: white;
   font-style: italic;
   text-decoration: none;
@@ -69,6 +69,11 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
 
 /* For Page 3 */
+.top3, .bottom3{
+  float: left;
+  width: 50%;
+}
+
 /* For Page 4 */
 
 /* For Page 5*/
