@@ -49,6 +49,7 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   width: 50%;
 }
 
+
 .bottom1 p {
   margin-top: 30%;
 }
@@ -70,17 +71,43 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 
 /* For Page 3 */
 .top3, .bottom3{
+  margin-top: 10%;
   float: left;
   width: 50%;
 }
+
+
 
 /* For Page 4 */
 
 /* For Page 5*/
 
+.top1#pg5{
+  margin-top: 5%;
+}
+
+
 /* For Page 6*/
+.top6, .bottom6 {
+  float: left;
+  width: 100%;
+  margin-left: 50px;
+}
 
 /* For Page 7 */
-
+.top7 {
+  margin-top: 10%;
+}
 
 /* For Page 8*/
+.top8 {
+  margin-top: 11%;
+}
+
+.top9 {
+  margin-top: 13%;
+}
+
+.top0 {
+  margin-top: 15%;
+}
