@@ -14,6 +14,7 @@ font-family: "Courier New", Courier, monospace;
 
 img {
   max-width: 100%;
+  transform: rotate(90deg);
 }
 
 .starry {
