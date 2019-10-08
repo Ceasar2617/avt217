@@ -1,0 +1,114 @@
+body {
+  position: relative;
+  background-color: 	#CAFAFE;
+  margin: 0 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.leftBar {
+  background-color: #373737;
+  float: left;
+  display: inline-block;
+  width: 150px;
+
+
+  height: 100vh;
+}
+.rightBlock {
+  float: left;
+  display: inline-block;
+  width: calc(100% - 190px);
+  padding: 20px;
+}
+.leftBarBlock {
+  margin-top: 350px;
+  width: 100%;
+  padding-left: 20%;
+
+}
+
+h1 {
+
+  color: #C0B283;
+  font-size: 4em;
+  font-weight: lighter;
+  letter-spacing: 5px;
+  transform: scale(1, 1.5);
+  -webkit-transform:rotate(-90deg) scale(1, 1.5) ;
+
+  transform: ;
+}
+
+h2 {
+    font-weight: lighter;
+}
+
+h3 {
+  margin: 0 0 0 0;
+}
+
+.lightColorBar {
+  margin-top: 15px;
+  background-color: #DCD0C0;
+  width: 70%;
+  height: 13px;
+
+}
+
+.darkColorBar {
+  margin-top: 10px;
+  background-color:	#373737;
+  width: 93%;
+  height: 13px;
+
+}
+
+.beigeBar {
+  margin-top: 10px;
+  background-color:	#DCD0C0;
+  padding: 5px 5px 5px 5px;
+  width: calc(93% - 10px);
+
+}
+
+.beigeBarShort {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color:	#DCD0C0;
+  padding: 5px 5px 5px 5px;
+  width: 100px;
+
+}
+
+.authorBlock {
+  background-color: 	#373737;
+  color: #C0B283;
+  padding: 1px 5px 1px 5px;
+  width: 230px;
+
+}
+
+.textblock {
+  padding: 5px 5px 5px 5px;
+  width: 93%;
+}
