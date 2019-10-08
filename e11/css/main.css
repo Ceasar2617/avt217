@@ -1,0 +1,56 @@
+body {
+  background-color: #f4f4f4;
+  margin: 0 0 0 0;
+  color:	#373737;
+}
+
+.leftBar {
+  background-color: #373737;
+  float: left;
+  display: inline-block;
+  width: 150px;
+
+
+  height: 100vh;
+}
+.rightBlock {
+  float: left;
+  display: inline-block;
+  width: calc(100% - 190px);
+  padding: 20px;
+}
+.leftBarBlock {
+  margin-top: 200px;
+  width: 100%;
+  padding-left: 30%;
+
+}
+
+h1 {
+  transform: rotate(-90deg);
+  color: #C0B283;
+  font-size: 3em;
+}
+
+.lightColorBar {
+  margin-top: 15px;
+  background-color: #DCD0C0;
+  width: 70%;
+  height: 13px;
+
+}
+
+.darkColorBar {
+  margin-top: 10px;
+  background-color:	#373737;
+  width: 90%;
+  height: 13px;
+
+}
+
+.authorBlock {
+  background-color: 	#373737;
+  color: #C0B283;
+  padding: 1px 5px 1px 5px;
+  width: 230px;
+}
