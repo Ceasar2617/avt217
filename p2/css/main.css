@@ -1,0 +1,113 @@
+html {
+  height: 100%;
+}
+body {
+margin: 0;
+height: 100%;
+background-repeat: repeat;
+background-attachment: fixed;
+text-align: center;
+line-height: 1.4em;
+font-size: 2em;
+font-family: "Courier New", Courier, monospace;
+}
+
+img {
+  max-width: 100%;
+}
+
+.starry {
+color: white;
+background-color:black;
+background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+
+}
+
+.starry a:link {
+  color: white;
+}
+
+.starry a:visited {
+  color: white;
+}
+
+.starry a:hover {
+  color: white;
+  font-style: italic;
+  text-decoration: none;
+}
+
+/* COR PAGE 1 */
+.top1, .bottom1 {
+  float: left;
+  width: 50%;
+}
+
+
+.bottom1 p {
+  margin-top: 30%;
+}
+
+.title {
+  margin-bottom: 10%;
+}
+
+.title h1, .title h3 {
+  font-weight: lighter;
+  font-style: italic;
+}
+
+/* FOR PAGE 2 */
+.top2, .bottom2 {
+  margin-top: 50px;
+  height: 20%;
+}
+
+/* For Page 3 */
+.top3, .bottom3{
+  margin-top: 10%;
+  float: left;
+  width: 50%;
+}
+
+
+
+/* For Page 4 */
+
+/* For Page 5*/
+
+.top1#pg5{
+  margin-top: 5%;
+}
+
+
+/* For Page 6*/
+.top6, .bottom6 {
+  float: left;
+  width: 100%;
+  margin-left: 50px;
+}
+
+/* For Page 7 */
+.top7 {
+  margin-top: 10%;
+}
+
+/* For Page 8*/
+.top8 {
+  margin-top: 11%;
+}
+
+.top9 {
+  margin-top: 13%;
+}
+
+.top0 {
+  margin-top: 15%;
+}
