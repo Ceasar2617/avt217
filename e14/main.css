@@ -1,0 +1,59 @@
+body {
+  background-color: white;
+  text-align: left;
+  line-height: 1.4em;
+  font-family: sans-serif;
+}
+
+p{
+  text-indent: 2em;
+}
+
+div#special  {
+  margin: 0 auto;
+  padding-left: 4em;
+  padding-right: 3em;
+  max-width: 1500px;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 650;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 650;
+}
+
+h4 {
+}
+
+h3 {
+  font-style: italic;
+}
+
+li {
+  padding-top: 5px;
+}
+
+.intro {
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: grey;
+    color: white;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
