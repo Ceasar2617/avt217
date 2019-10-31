@@ -2,7 +2,7 @@ body {
   background-color: #F2F0DB;
   margin: 0 0 0 0;
   color:	white;
-  height: 3000px;
+  height: 3200px;
   font-family: Lucida Bright,Georgia,serif;
 }
 
@@ -57,7 +57,7 @@ body h2 {
 }
 
 .botbar {
-  margin-top: 0px;
+  margin-top: 30px;
   float: left;
   width: 100%;
   height: 400px;
@@ -67,8 +67,8 @@ body h2 {
 
 .panelContainer {
   float: left;
-  height: 2000px;
   width: 100%;
+
 }
 .panel1 {
   background-color: #BB7845;
@@ -116,4 +116,23 @@ a:visited {
 a:hover {
   color: white;
   text-decoration: overline;
+}
+
+@media only screen and (max-width: 805px) {
+.panel1{
+  height: 800px;
+}
+
+.img1 {
+  margin-left: 15px;
+  width: calc(100% - 30px);
+}
+
+.text {
+  width: calc(100% - 60px);
+  height: auto;
+}
+ p a {
+   margin-left: 30px;
+ }
 }
