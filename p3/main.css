@@ -120,7 +120,13 @@ a:hover {
 
 @media only screen and (max-width: 805px) {
 .panel1{
-  height: 800px;
+  height: 100%;
+}
+
+#flgimg {
+  width: 200px;
+  margin-left: calc(50% - 100px);
+  margin-top: 20%;
 }
 
 .img1 {
