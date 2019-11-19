@@ -69,6 +69,10 @@ h1 {
   padding: 0;
 }
 
+.font {
+  text-decoration: underline;
+}
+
 .colorLightGreen {
   background-color: #51f57d;
 }
