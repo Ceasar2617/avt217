@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  background-color: grey;
+  font-family: 'Oswald', sans-serif;
+}
+
+.center {
+  width: 300px;
+  margin: 0 auto;
+}
