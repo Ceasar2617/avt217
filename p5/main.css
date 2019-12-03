@@ -4,13 +4,14 @@
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 20px;
   background-color: black;
   font-family: 'Oswald', sans-serif;
 }
 
 button {
+  position: absolute;
   margin-top: 20px;
   margin-left: 20px;
   line-height: 60px;
