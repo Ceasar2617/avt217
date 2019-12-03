@@ -5,12 +5,12 @@ function makeButton() {
   var col = Math.floor(Math.random() * 10 + 1);
   var posx = Math.floor(Math.random() * 100 + 1);
   var posy = Math.floor(Math.random() * 100 + 1);
-  var x = Math.floor(Math.random() * 10 + 1);
+  //var x = Math.floor(Math.random() * 10 + 1);
   var btn = document.createElement("Button");
   btn.innerHTML = "Add a Button";
   btn.setAttribute("onclick", "makeButton()");
   btn.setAttribute("class", "color" + col);
-  btn.setAttribute("style", "margin-left:"+posx+"%;margin-top:"+posy+"%;")
+  btn.setAttribute("style", "margin-left:"+posx+"vw;margin-top:"+posy+"vh;")
 
   document.body.appendChild(btn);
 }
