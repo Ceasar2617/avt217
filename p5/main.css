@@ -11,7 +11,6 @@ body {
 }
 
 button {
-  position: absolute;
   margin-top: 20px;
   margin-left: 20px;
   line-height: 60px;
